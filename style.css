@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+ }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+	list-style:  none;
+}
+header a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 24px;
+}
+.main-header {
+	background: #007765;
+	height: 84px;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	display: block;
+}
+.main-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px 55px;
+}
+.header-logo {
+	height: 45px;
+	width: 184px;
+}
+.nav {
+	display: flex;
+}
+.nav_item {
+	display: block;
+	padding: 0 1rem;
+	color: white;
+}
+.jumbotron {
+	background: url(img/Jumbotron.png);
+	background-size: 100% 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.jumbotron-message {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	color: white;
+	font-weight: 700;
+	font-size: 72px;
+}
+.theproblem {
+	background: #EEEEEE;
+}
+.universal_header {
+	color: #007765;
+	font-size: 64px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2.5rem;
+	padding-bottom: 1.5rem;
+}
+.theproblem_text {
+	color: black;
+	font-size: 32px;
+	padding: 0 55px 3rem;
+}
+.hero {
+	background: url(img/Hero.png);
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hero-text {
+	color: white;
+	font-size: 48px;
+	padding: 10rem 11rem;
+	font-style: italic;
+	text-align: center;
+}
+.ppc {
+	font-size: 32px;
+	padding: 0 55px 3rem;
+	background: #FFFFFF;
+}
+.ppc-text {
+	color: black;
+}
+.ppc-img {
+	float: left;
+	height: 115px;
+	width: 115px;
+	margin-right: 30px;
+}
+.theteam {
+	background: #EEEEEE;
+	padding-bottom: 3rem;
+}
+.theteam table {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.theteam table th {
+	padding: 2rem 5rem;
+}
+.theteam_image {
+	height: 168px;
+	width: 168px;
+}
+.theteam_name {
+	margin-top: 10px;
+	margin-bottom: 6px;
+	color: #007765;
+	font-size: 24px;
+}
+.theteam_major {
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 500;
+}
+.footer {
+	background: #333333;
+	display: flex;
+	text-align: center;
+	justify-content: center;	
+}
+.footer-text {
+	max-width: 540px;
+	font-size: 18px;
+	color: white;
+}
+/* адаптивность - 1219px */
+@media screen and (max-width: 1219px) {
+	
+	body {
+		width: 1219px;
+		background: rgb(211, 230, 226);
+	}
+}
